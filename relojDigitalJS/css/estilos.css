@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    min-width: 100vh;
+    /*definir alto de la pantalla*/
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 34, 32);
+}
+.reloj{
+    border: 16px solid #6afc08;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30vh;
+    font-family: monospace;
+    font-size: 3rem;
+    color: #76fc08;
+}

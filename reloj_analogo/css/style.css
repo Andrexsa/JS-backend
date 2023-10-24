@@ -18,9 +18,9 @@ body{
     align-items: center;
     background-image: url(../img/reloj.png);
     background-size: cover;
-    border: 1rem solid rgb(180, 159, 164);
+    border: 1rem solid rgb(226, 27, 76);
     border-radius: 50vh;
-    box-shadow: inset 0px 0px 20px 5px rgb(130, 243, 54);
+    box-shadow: inset 0px 0px 20px 5px rgb(227, 47, 92);
 
 }
 
@@ -29,18 +29,18 @@ body{
     position: absolute;
     width: 20px;
     height: 20px;
-    background: rgb(180, 159, 164);
+    background: rgb(237, 129, 156);
     border-radius: 50vh;
     z-index: 10000;
 }
 
 .hora{
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
 }
 .minuto{
-    width: 220px;
-    height: 220px;
+    width: 190px;
+    height: 190px;
 }
 .segundo{
     width: 250px;
@@ -51,8 +51,8 @@ body{
     content: '';
     position: absolute;
     width: 8px;
-    height: 90px;
-    background: rgb(40, 207, 157);
+    height: 70px;
+    background: beige;
     z-index: 10;
     border-radius: 50vh;
 }
@@ -61,8 +61,8 @@ body{
     content: '';
     position: absolute;
     width: 5px;
-    height: 130px;
-    background: rgb(17, 165, 74);
+    height: 100px;
+    background: rgb(226, 27, 76);
     z-index: 11;
     border-radius: 50vh;
 }
@@ -72,7 +72,7 @@ body{
     position: absolute;
     width: 1.8px;
     height: 150px;
-    background: rgb(4, 105, 9);
+    background: rgb(27, 226, 199);
     z-index: 12;
     border-radius: 50vh;
 }
@@ -84,23 +84,4 @@ body{
     position: absolute;
     border-radius: 50vh;
 } 
-
-/*segundo reloj*/
-
-    
-    .Reloj{
-        border: 3.5px solid rgb(60, 255, 0);
-        position: relative;
-        border-radius: 10px;
-        top: -50px;
-        width: 150px;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: rgba(255, 255, 255, 0.637);
-        font-size: 20px;
-        box-shadow: inset 0px 0px 15px 2px rgb(130, 243, 54);
-    }
-
 

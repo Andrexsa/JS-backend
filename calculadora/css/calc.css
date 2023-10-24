@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(../img/nacional.jpg);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullbox{
+    background-color: rgb(91, 228, 57);
+    color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 350px;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+
+.pantallitaxd{
+    grid-column: 1/5;
+    background-color: rgba(65, 167, 70, 0.856);
+    padding: 0.2rem;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: 0.5rem      ;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.button{
+background-color: black;
+color: aliceblue;
+border: 0;
+padding: 1rem;
+font-size: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: .8rem;
+cursor: pointer;
+
+
+}
+.button:hover{
+    background-color: gray;
+}
+#cero{
+grid-column: span 2;
+}
+#igual{
+    grid-row: span 2;
+    background-color:rebeccapurple;
+}
+#igual:hover{
+background-color: blueviolet;
+
+}
+#borrar{
+background-color: rebeccapurple;
+}
+#fl{
+    background-color: rebeccapurple;
+}
+#borrar:hover{
+background-color: blueviolet;
+
+}
+#igual:hover{
+    background-color: blueviolet;
+    
+    }
+
