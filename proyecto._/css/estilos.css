@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/nacio.jpg");
+}
+
+.pantalla{
+    user-select: none;
+
+}
+
+.pantalla  .cronometro{
+    height: 100px;
+    background: rgb(179, 243, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 8px 5px rgb(85, 240, 46);
+    border: none;
+    
+}
+.pantalla .cronometro span{
+    width: 60px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 550;
+    color: rgb(61, 139, 139);
+}
+
+.cronometro span .separador{
+    width: 10px;
+}
+
+.cronometro span.separador,
+.cronometro span.separador-mili{
+    width: 30px;
+    margin-bottom: 7px;
+    color: rgb(40, 221, 191);
+}
+
+.pantalla .botones{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botones button{
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0px 10px;
+    color: black;
+    background: rgb(147, 224, 127);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 0.9rem;
+    cursor: pointer;
+    box-shadow: 3px 4px 3px 0px rgb(218, 247, 165);
+}
+
+.botones button.on{
+    pointer-events: none;
+    opacity: 0.7;
+}
