@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    min-height: 100vh;
+}
+.reloj{
+    display: flex;
+}
+.container-dias,
+.container-horas,
+.container-minutos,
+.container-segundos{
+    margin-right: 20px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(83,200,220);
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(83,200,220);
+}
+.calendario{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    color:rgb(254, 255, 255);
+    margin-bottom: 20px;
+}
+
+.botones{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    
+}
+
+.botones > .play.red{
+
+    background-color:red;
+    color:aliceblue;
+}
+.botones > .play.red:hover{
+
+    background-color:rgb(255, 255, 255);
+    color:red;
+}
+.play {
+    border: none;
+    cursor: pointer;
+    background-color:    rgb(254, 255, 255);
+    border-radius: 40px;
+    width: 90px;
+    height: 50px;
+    color: red;
+
+}
+
+.botones > .pause.red{
+
+    background-color:red;
+    color:aliceblue;
+}
+.botones > .pause.red:hover{
+
+    background-color:rgb(255, 255, 255);
+    color:red;
+}
+.pause{
+    border: none;
+    cursor: pointer;
+    background-color:    rgb(254, 255, 255);
+    border-radius: 40px;
+    width: 90px;
+    height: 50px;
+    color: red;
+}
+#dias, #horas, #minutos, #segundos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:   rgb(83,200,220);
+    border: 0.2rem solid  rgb(254, 255, 255);
+    border-radius: 50px;
+    width: 110px;
+    height: 90px;
+    font-size: 40px;
+    font-weight: 900;
+    box-shadow: inset 0px 0px 20px 5px rgb(244, 245, 247);
+    
+}
+#mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    font-weight: 900;
+    color:red;
+}
+.container-horas{
+    color: white;
+    text-align: center;
+     font-size: 30px;
+}
+.container-minutos{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.container-segundos{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.container-dias{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}

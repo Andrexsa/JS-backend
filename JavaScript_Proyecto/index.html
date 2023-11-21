@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="cuerpo">
+            <h2 id="mensaje">Faltan para navidad</h2>
+            <br>
+            <div class="reloj">
+
+                <div class="container-dias">
+                    <div id="dias"></div>
+                    <div>D</div>
+                </div>
+
+                <div class="container-horas">
+                    <div id="horas"></div>
+                    <div>H</div>
+                </div>
+
+                <div class="container-minutos">
+                    <div id="minutos"></div>
+                    <div>M</div>  
+                </div>
+
+                <div class="container-segundos">
+                <div id="segundos"></div>
+                <div>S</div>
+                </div>
+
+            </div>
+            <div class="botones">
+                <button id="play" class="play" onclick="musica()">Play</button>
+                <button id="pause" class="pause" onclick="parar()">Pause</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container2">
+        <div class="papaNoel">
+            <img id="imagen" src="./img/papaNoel1.png">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
