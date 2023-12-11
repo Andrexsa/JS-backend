@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.esqueletoOFF{
+    width: 550px;
+    height: 600px;
+    background-color: rgb(91, 111, 201);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url(../img/esqueleto2.png);
+}
+.esqueletoOFF.on{
+    background-image: url("../img/NACIO.gif");
+}
+.esqueletoONOFF{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(46, 25, 66);
+    border-radius: 1vh;
+    border: 0.2 solid rgb(138, 44, 44);
+    position: fixed;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
